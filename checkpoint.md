@@ -8,6 +8,14 @@
 | 10–14 — Validation/fix loop | Complete — dependencies installed; 2 unittest checks and live `POST /generate` verification passed; no fixes needed |
 | 15 — Reports | Complete — live-request xlsx and docx created under `tests-artifacts/` |
 | 16 — Final summary | Complete — requested minimal backend delivered with all verification and report artifacts passing |
+| Documentation update — summary/test | Complete — added `PROJECT_SUMMARY.md` and a focused unittest regression check |
+| Documentation update — verification/reports | Complete — `python -m unittest discover -s tests` observed 3 passing tests; live `POST /generate` via Uvicorn/curl observed HTTP 200; regenerated xlsx/docx artifacts |
+
+## Documentation update decisions
+
+- `PROJECT_SUMMARY.md` is limited to the implemented API, documented commands, existing tests, and intentionally excluded components.
+- The regression test checks the summary file and its key facts without changing application behavior.
+
 
 ## Decisions
 
