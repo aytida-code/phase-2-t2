@@ -5,8 +5,8 @@
 | 1 — Design/scaffold | Complete |
 | 2–8 — Implementation/tests | Complete — service, schema, endpoint, dependencies, and unittest suites written |
 | 9 — Documentation | Complete — README written |
-| 10–14 — Validation/fix loop | Pending |
-| 15 — Reports | Pending |
+| 10–14 — Validation/fix loop | Complete — dependencies installed; 2 unittest checks and live `POST /generate` verification passed; no fixes needed |
+| 15 — Reports | Complete — live-request xlsx and docx created under `tests-artifacts/` |
 | 16 — Final summary | Pending |
 
 ## Decisions
