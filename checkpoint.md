@@ -3,8 +3,8 @@
 | Step | Status |
 |---|---|
 | 1 — Design/scaffold | Complete |
-| 2–8 — Implementation/tests | Pending |
-| 9 — Documentation | Pending |
+| 2–8 — Implementation/tests | Complete — service, schema, endpoint, dependencies, and unittest suites written |
+| 9 — Documentation | Complete — README written |
 | 10–14 — Validation/fix loop | Pending |
 | 15 — Reports | Pending |
 | 16 — Final summary | Pending |
